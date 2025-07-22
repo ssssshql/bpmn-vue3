@@ -15,7 +15,7 @@ function init(){
   bpmnModeler.value = new BpmnModeler({
     container: canvasRef.value,
     propertiesPanel: {
-      parent: propertiesRef.value
+      parent: '#js-properties-panel'
     },
     additionalModules: [
       BpmnPropertiesPanelModule,
